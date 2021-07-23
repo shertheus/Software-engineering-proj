@@ -1,0 +1,4 @@
+#Fri Nov 27 10:34:58 CST 2020
+base.0=E\:\\AndroidStudioProjects\\FaceRecognition\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

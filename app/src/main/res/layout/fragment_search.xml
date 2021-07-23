@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/ll"
+    android:background="@color/white"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+    <SearchView
+        android:id="@+id/searchView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:iconifiedByDefault="false"
+        android:background="#ffB0C4DE"
+        android:queryHint="搜索内容" />
+
+    <com.lyl.facerecognition.ui.search.DropDownMenu
+        android:id="@+id/dropDownMenu"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        app:dividerColor="@color/assist_blue"
+        app:maskColor="@color/gray1"
+        app:menuBackgroundColor="@color/base_title_color"
+        app:menuSelectedIcon="@drawable/ic_img_up"
+        app:menuTextSize="16sp"
+        app:menuUnselectedIcon="@drawable/ic_img_down"
+        app:textSelectedColor="@color/assist_blue"
+        app:textUnselectedColor="@color/white"
+        app:underlineColor="@color/assist_blue" />
+</LinearLayout>

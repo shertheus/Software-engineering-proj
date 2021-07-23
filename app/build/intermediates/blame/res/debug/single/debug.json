@@ -1,0 +1,170 @@
+[
+    {
+        "merged": "C:\\Users\\shertheus\\AndroidStudioProjects\\FaceRecognition\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_user.xml.flat",
+        "source": "C:\\Users\\shertheus\\AndroidStudioProjects\\FaceRecognition\\app\\src\\main\\res\\layout\\activity_user.xml"
+    },
+    {
+        "merged": "C:\\Users\\shertheus\\AndroidStudioProjects\\FaceRecognition\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_terminal.xml.flat",
+        "source": "C:\\Users\\shertheus\\AndroidStudioProjects\\FaceRecognition\\app\\src\\main\\res\\layout\\activity_terminal.xml"
+    },
+    {
+        "merged": "C:\\Users\\shertheus\\AndroidStudioProjects\\FaceRecognition\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\shertheus\\AndroidStudioProjects\\FaceRecognition\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\shertheus\\AndroidStudioProjects\\FaceRecognition\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\shertheus\\AndroidStudioProjects\\FaceRecognition\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\shertheus\\AndroidStudioProjects\\FaceRecognition\\app\\build\\intermediates\\res\\merged\\debug\\drawable_arrow_back.xml.flat",
+        "source": "C:\\Users\\shertheus\\AndroidStudioProjects\\FaceRecognition\\app\\src\\main\\res\\drawable\\arrow_back.xml"
+    },
+    {
+        "merged": "C:\\Users\\shertheus\\AndroidStudioProjects\\FaceRecognition\\app\\build\\intermediates\\res\\merged\\debug\\menu_bottom_nav_menu.xml.flat",
+        "source": "C:\\Users\\shertheus\\AndroidStudioProjects\\FaceRecognition\\app\\src\\main\\res\\menu\\bottom_nav_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\shertheus\\AndroidStudioProjects\\FaceRecognition\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_default_header.png.flat",
+        "source": "C:\\Users\\shertheus\\AndroidStudioProjects\\FaceRecognition\\app\\src\\main\\res\\mipmap-xxhdpi\\default_header.png"
+    },
+    {
+        "merged": "C:\\Users\\shertheus\\AndroidStudioProjects\\FaceRecognition\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_welcome.xml.flat",
+        "source": "C:\\Users\\shertheus\\AndroidStudioProjects\\FaceRecognition\\app\\src\\main\\res\\layout\\activity_welcome.xml"
+    },
+    {
+        "merged": "C:\\Users\\shertheus\\AndroidStudioProjects\\FaceRecognition\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_home.xml.flat",
+        "source": "C:\\Users\\shertheus\\AndroidStudioProjects\\FaceRecognition\\app\\src\\main\\res\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\shertheus\\AndroidStudioProjects\\FaceRecognition\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_group_layout.xml.flat",
+        "source": "C:\\Users\\shertheus\\AndroidStudioProjects\\FaceRecognition\\app\\src\\main\\res\\layout\\item_group_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\shertheus\\AndroidStudioProjects\\FaceRecognition\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\shertheus\\AndroidStudioProjects\\FaceRecognition\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\shertheus\\AndroidStudioProjects\\FaceRecognition\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\shertheus\\AndroidStudioProjects\\FaceRecognition\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\shertheus\\AndroidStudioProjects\\FaceRecognition\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_notifications_black_24dp.xml.flat",
+        "source": "C:\\Users\\shertheus\\AndroidStudioProjects\\FaceRecognition\\app\\src\\main\\res\\drawable\\ic_notifications_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\shertheus\\AndroidStudioProjects\\FaceRecognition\\app\\build\\intermediates\\res\\merged\\debug\\layout_single_textview.xml.flat",
+        "source": "C:\\Users\\shertheus\\AndroidStudioProjects\\FaceRecognition\\app\\src\\main\\res\\layout\\single_textview.xml"
+    },
+    {
+        "merged": "C:\\Users\\shertheus\\AndroidStudioProjects\\FaceRecognition\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_qr_code.xml.flat",
+        "source": "C:\\Users\\shertheus\\AndroidStudioProjects\\FaceRecognition\\app\\src\\main\\res\\layout\\activity_qr_code.xml"
+    },
+    {
+        "merged": "C:\\Users\\shertheus\\AndroidStudioProjects\\FaceRecognition\\app\\build\\intermediates\\res\\merged\\debug\\layout_bar_title.xml.flat",
+        "source": "C:\\Users\\shertheus\\AndroidStudioProjects\\FaceRecognition\\app\\src\\main\\res\\layout\\bar_title.xml"
+    },
+    {
+        "merged": "C:\\Users\\shertheus\\AndroidStudioProjects\\FaceRecognition\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\shertheus\\AndroidStudioProjects\\FaceRecognition\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\shertheus\\AndroidStudioProjects\\FaceRecognition\\app\\build\\intermediates\\res\\merged\\debug\\drawable_welcome.png.flat",
+        "source": "C:\\Users\\shertheus\\AndroidStudioProjects\\FaceRecognition\\app\\src\\main\\res\\drawable\\welcome.png"
+    },
+    {
+        "merged": "C:\\Users\\shertheus\\AndroidStudioProjects\\FaceRecognition\\app\\build\\intermediates\\res\\merged\\debug\\layout_listview_foot_view.xml.flat",
+        "source": "C:\\Users\\shertheus\\AndroidStudioProjects\\FaceRecognition\\app\\src\\main\\res\\layout\\listview_foot_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\shertheus\\AndroidStudioProjects\\FaceRecognition\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\shertheus\\AndroidStudioProjects\\FaceRecognition\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\shertheus\\AndroidStudioProjects\\FaceRecognition\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\shertheus\\AndroidStudioProjects\\FaceRecognition\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\shertheus\\AndroidStudioProjects\\FaceRecognition\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\shertheus\\AndroidStudioProjects\\FaceRecognition\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\shertheus\\AndroidStudioProjects\\FaceRecognition\\app\\build\\intermediates\\res\\merged\\debug\\layout_photo_select.xml.flat",
+        "source": "C:\\Users\\shertheus\\AndroidStudioProjects\\FaceRecognition\\app\\src\\main\\res\\layout\\photo_select.xml"
+    },
+    {
+        "merged": "C:\\Users\\shertheus\\AndroidStudioProjects\\FaceRecognition\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\shertheus\\AndroidStudioProjects\\FaceRecognition\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\shertheus\\AndroidStudioProjects\\FaceRecognition\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\shertheus\\AndroidStudioProjects\\FaceRecognition\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\shertheus\\AndroidStudioProjects\\FaceRecognition\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_zxing.xml.flat",
+        "source": "C:\\Users\\shertheus\\AndroidStudioProjects\\FaceRecognition\\app\\src\\main\\res\\layout\\layout_zxing.xml"
+    },
+    {
+        "merged": "C:\\Users\\shertheus\\AndroidStudioProjects\\FaceRecognition\\app\\build\\intermediates\\res\\merged\\debug\\layout_my_tv.xml.flat",
+        "source": "C:\\Users\\shertheus\\AndroidStudioProjects\\FaceRecognition\\app\\src\\main\\res\\layout\\my_tv.xml"
+    },
+    {
+        "merged": "C:\\Users\\shertheus\\AndroidStudioProjects\\FaceRecognition\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\shertheus\\AndroidStudioProjects\\FaceRecognition\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\shertheus\\AndroidStudioProjects\\FaceRecognition\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\shertheus\\AndroidStudioProjects\\FaceRecognition\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\shertheus\\AndroidStudioProjects\\FaceRecognition\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\shertheus\\AndroidStudioProjects\\FaceRecognition\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\shertheus\\AndroidStudioProjects\\FaceRecognition\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_admin.xml.flat",
+        "source": "C:\\Users\\shertheus\\AndroidStudioProjects\\FaceRecognition\\app\\src\\main\\res\\layout\\fragment_admin.xml"
+    },
+    {
+        "merged": "C:\\Users\\shertheus\\AndroidStudioProjects\\FaceRecognition\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_dashboard_black_24dp.xml.flat",
+        "source": "C:\\Users\\shertheus\\AndroidStudioProjects\\FaceRecognition\\app\\src\\main\\res\\drawable\\ic_dashboard_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\shertheus\\AndroidStudioProjects\\FaceRecognition\\app\\build\\intermediates\\res\\merged\\debug\\layout_my_refresh_textview.xml.flat",
+        "source": "C:\\Users\\shertheus\\AndroidStudioProjects\\FaceRecognition\\app\\src\\main\\res\\layout\\my_refresh_textview.xml"
+    },
+    {
+        "merged": "C:\\Users\\shertheus\\AndroidStudioProjects\\FaceRecognition\\app\\build\\intermediates\\res\\merged\\debug\\layout_listview_head_view.xml.flat",
+        "source": "C:\\Users\\shertheus\\AndroidStudioProjects\\FaceRecognition\\app\\src\\main\\res\\layout\\listview_head_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\shertheus\\AndroidStudioProjects\\FaceRecognition\\app\\build\\intermediates\\res\\merged\\debug\\navigation_mobile_navigation.xml.flat",
+        "source": "C:\\Users\\shertheus\\AndroidStudioProjects\\FaceRecognition\\app\\src\\main\\res\\navigation\\mobile_navigation.xml"
+    },
+    {
+        "merged": "C:\\Users\\shertheus\\AndroidStudioProjects\\FaceRecognition\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_subhome.xml.flat",
+        "source": "C:\\Users\\shertheus\\AndroidStudioProjects\\FaceRecognition\\app\\src\\main\\res\\layout\\fragment_subhome.xml"
+    },
+    {
+        "merged": "C:\\Users\\shertheus\\AndroidStudioProjects\\FaceRecognition\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\shertheus\\AndroidStudioProjects\\FaceRecognition\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\shertheus\\AndroidStudioProjects\\FaceRecognition\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_dashboard.xml.flat",
+        "source": "C:\\Users\\shertheus\\AndroidStudioProjects\\FaceRecognition\\app\\src\\main\\res\\layout\\fragment_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\shertheus\\AndroidStudioProjects\\FaceRecognition\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_home_black_24dp.xml.flat",
+        "source": "C:\\Users\\shertheus\\AndroidStudioProjects\\FaceRecognition\\app\\src\\main\\res\\drawable\\ic_home_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\shertheus\\AndroidStudioProjects\\FaceRecognition\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\shertheus\\AndroidStudioProjects\\FaceRecognition\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\shertheus\\AndroidStudioProjects\\FaceRecognition\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_signup.xml.flat",
+        "source": "C:\\Users\\shertheus\\AndroidStudioProjects\\FaceRecognition\\app\\src\\main\\res\\layout\\activity_signup.xml"
+    },
+    {
+        "merged": "C:\\Users\\shertheus\\AndroidStudioProjects\\FaceRecognition\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\shertheus\\AndroidStudioProjects\\FaceRecognition\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    }
+]

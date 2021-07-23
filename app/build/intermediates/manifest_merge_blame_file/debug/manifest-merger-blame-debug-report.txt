@@ -1,0 +1,185 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.lyl.facerecognition"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->E:\AndroidStudioProjects\FaceRecognition\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->E:\AndroidStudioProjects\FaceRecognition\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+11-->E:\AndroidStudioProjects\FaceRecognition\app\src\main\AndroidManifest.xml:4:5-81
+11-->E:\AndroidStudioProjects\FaceRecognition\app\src\main\AndroidManifest.xml:4:22-78
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->E:\AndroidStudioProjects\FaceRecognition\app\src\main\AndroidManifest.xml:5:5-78
+12-->E:\AndroidStudioProjects\FaceRecognition\app\src\main\AndroidManifest.xml:5:22-76
+13    <uses-permission android:name="android.permission.INTERNET" /> <!-- 网络权限 -->
+13-->E:\AndroidStudioProjects\FaceRecognition\app\src\main\AndroidManifest.xml:6:5-67
+13-->E:\AndroidStudioProjects\FaceRecognition\app\src\main\AndroidManifest.xml:6:22-64
+14    <uses-permission android:name="android.permission.VIBRATE" /> <!-- 震动权限 -->
+14-->E:\AndroidStudioProjects\FaceRecognition\app\src\main\AndroidManifest.xml:7:5-66
+14-->E:\AndroidStudioProjects\FaceRecognition\app\src\main\AndroidManifest.xml:7:22-63
+15    <uses-permission android:name="android.permission.CAMERA" /> <!-- 摄像头权限 -->
+15-->E:\AndroidStudioProjects\FaceRecognition\app\src\main\AndroidManifest.xml:8:5-65
+15-->E:\AndroidStudioProjects\FaceRecognition\app\src\main\AndroidManifest.xml:8:22-62
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->E:\AndroidStudioProjects\FaceRecognition\app\src\main\AndroidManifest.xml:9:5-80
+16-->E:\AndroidStudioProjects\FaceRecognition\app\src\main\AndroidManifest.xml:9:22-77
+17
+18    <uses-feature android:name="android.hardware.camera.autofocus" />
+18-->E:\AndroidStudioProjects\FaceRecognition\app\src\main\AndroidManifest.xml:10:5-70
+18-->E:\AndroidStudioProjects\FaceRecognition\app\src\main\AndroidManifest.xml:10:19-67
+19
+20    <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
+21    <uses-feature
+21-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\shertheus\.gradle\caches\transforms-2\files-2.1\47868ffb302ce5fdc7239e0dce851974\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:25:5-27:36
+22        android:name="android.hardware.camera"
+22-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\shertheus\.gradle\caches\transforms-2\files-2.1\47868ffb302ce5fdc7239e0dce851974\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:26:9-47
+23        android:required="false" />
+23-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\shertheus\.gradle\caches\transforms-2\files-2.1\47868ffb302ce5fdc7239e0dce851974\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:27:9-33
+24    <uses-feature
+24-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\shertheus\.gradle\caches\transforms-2\files-2.1\47868ffb302ce5fdc7239e0dce851974\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:28:5-30:36
+25        android:name="android.hardware.camera.front"
+25-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\shertheus\.gradle\caches\transforms-2\files-2.1\47868ffb302ce5fdc7239e0dce851974\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:29:9-53
+26        android:required="false" />
+26-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\shertheus\.gradle\caches\transforms-2\files-2.1\47868ffb302ce5fdc7239e0dce851974\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:30:9-33
+27    <uses-feature
+27-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\shertheus\.gradle\caches\transforms-2\files-2.1\47868ffb302ce5fdc7239e0dce851974\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:36:5-38:36
+28        android:name="android.hardware.camera.flash"
+28-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\shertheus\.gradle\caches\transforms-2\files-2.1\47868ffb302ce5fdc7239e0dce851974\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:37:9-53
+29        android:required="false" />
+29-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\shertheus\.gradle\caches\transforms-2\files-2.1\47868ffb302ce5fdc7239e0dce851974\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:38:9-33
+30    <uses-feature
+30-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\shertheus\.gradle\caches\transforms-2\files-2.1\47868ffb302ce5fdc7239e0dce851974\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:39:5-41:36
+31        android:name="android.hardware.screen.landscape"
+31-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\shertheus\.gradle\caches\transforms-2\files-2.1\47868ffb302ce5fdc7239e0dce851974\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:40:9-57
+32        android:required="false" />
+32-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\shertheus\.gradle\caches\transforms-2\files-2.1\47868ffb302ce5fdc7239e0dce851974\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:41:9-33
+33    <uses-feature
+33-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\shertheus\.gradle\caches\transforms-2\files-2.1\47868ffb302ce5fdc7239e0dce851974\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:42:5-44:36
+34        android:name="android.hardware.wifi"
+34-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\shertheus\.gradle\caches\transforms-2\files-2.1\47868ffb302ce5fdc7239e0dce851974\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:43:9-45
+35        android:required="false" /> <!-- 自动聚焦权限 -->
+35-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\shertheus\.gradle\caches\transforms-2\files-2.1\47868ffb302ce5fdc7239e0dce851974\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:44:9-33
+36    <application
+36-->E:\AndroidStudioProjects\FaceRecognition\app\src\main\AndroidManifest.xml:12:5-49:19
+37        android:allowBackup="true"
+37-->E:\AndroidStudioProjects\FaceRecognition\app\src\main\AndroidManifest.xml:14:9-35
+38        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+38-->[androidx.core:core:1.3.1] C:\Users\shertheus\.gradle\caches\transforms-2\files-2.1\c560b8721f05ca12656603dd382025ab\core-1.3.1\AndroidManifest.xml:24:18-86
+39        android:debuggable="true"
+40        android:extractNativeLibs="false"
+41        android:icon="@mipmap/ic_launcher"
+41-->E:\AndroidStudioProjects\FaceRecognition\app\src\main\AndroidManifest.xml:15:9-43
+42        android:label="@string/app_name"
+42-->E:\AndroidStudioProjects\FaceRecognition\app\src\main\AndroidManifest.xml:16:9-41
+43        android:roundIcon="@mipmap/ic_launcher_round"
+43-->E:\AndroidStudioProjects\FaceRecognition\app\src\main\AndroidManifest.xml:17:9-54
+44        android:screenOrientation="portrait"
+44-->E:\AndroidStudioProjects\FaceRecognition\app\src\main\AndroidManifest.xml:19:9-45
+45        android:supportsRtl="true"
+45-->E:\AndroidStudioProjects\FaceRecognition\app\src\main\AndroidManifest.xml:18:9-35
+46        android:testOnly="true"
+47        android:theme="@style/AppTheme"
+47-->E:\AndroidStudioProjects\FaceRecognition\app\src\main\AndroidManifest.xml:20:9-40
+48        android:usesCleartextTraffic="true" >
+48-->E:\AndroidStudioProjects\FaceRecognition\app\src\main\AndroidManifest.xml:13:9-44
+49        <activity
+49-->E:\AndroidStudioProjects\FaceRecognition\app\src\main\AndroidManifest.xml:21:9-25:20
+50            android:name="com.lyl.facerecognition.MainActivity"
+50-->E:\AndroidStudioProjects\FaceRecognition\app\src\main\AndroidManifest.xml:22:13-41
+51            android:label="@string/app_name"
+51-->E:\AndroidStudioProjects\FaceRecognition\app\src\main\AndroidManifest.xml:24:13-45
+52            android:screenOrientation="portrait" >
+52-->E:\AndroidStudioProjects\FaceRecognition\app\src\main\AndroidManifest.xml:23:13-49
+53        </activity>
+54        <activity
+54-->E:\AndroidStudioProjects\FaceRecognition\app\src\main\AndroidManifest.xml:26:9-28:46
+55            android:name="com.lyl.facerecognition.LoginActivity"
+55-->E:\AndroidStudioProjects\FaceRecognition\app\src\main\AndroidManifest.xml:26:19-48
+56            android:screenOrientation="portrait"
+56-->E:\AndroidStudioProjects\FaceRecognition\app\src\main\AndroidManifest.xml:27:13-49
+57            android:theme="@style/AppTheme" />
+57-->E:\AndroidStudioProjects\FaceRecognition\app\src\main\AndroidManifest.xml:28:13-44
+58        <activity
+58-->E:\AndroidStudioProjects\FaceRecognition\app\src\main\AndroidManifest.xml:29:9-31:46
+59            android:name="com.lyl.facerecognition.ui.Home.UserActivity"
+59-->E:\AndroidStudioProjects\FaceRecognition\app\src\main\AndroidManifest.xml:29:19-55
+60            android:screenOrientation="portrait"
+60-->E:\AndroidStudioProjects\FaceRecognition\app\src\main\AndroidManifest.xml:30:13-49
+61            android:theme="@style/AppTheme" />
+61-->E:\AndroidStudioProjects\FaceRecognition\app\src\main\AndroidManifest.xml:31:13-44
+62        <activity
+62-->E:\AndroidStudioProjects\FaceRecognition\app\src\main\AndroidManifest.xml:32:9-34:46
+63            android:name="com.lyl.facerecognition.TerminalActivity"
+63-->E:\AndroidStudioProjects\FaceRecognition\app\src\main\AndroidManifest.xml:32:19-51
+64            android:screenOrientation="portrait"
+64-->E:\AndroidStudioProjects\FaceRecognition\app\src\main\AndroidManifest.xml:33:13-49
+65            android:theme="@style/AppTheme" />
+65-->E:\AndroidStudioProjects\FaceRecognition\app\src\main\AndroidManifest.xml:34:13-44
+66        <activity
+66-->E:\AndroidStudioProjects\FaceRecognition\app\src\main\AndroidManifest.xml:35:9-37:46
+67            android:name="com.lyl.facerecognition.SignUpActivity"
+67-->E:\AndroidStudioProjects\FaceRecognition\app\src\main\AndroidManifest.xml:35:19-49
+68            android:screenOrientation="portrait"
+68-->E:\AndroidStudioProjects\FaceRecognition\app\src\main\AndroidManifest.xml:36:13-49
+69            android:theme="@style/AppTheme" />
+69-->E:\AndroidStudioProjects\FaceRecognition\app\src\main\AndroidManifest.xml:37:13-44
+70        <activity
+70-->E:\AndroidStudioProjects\FaceRecognition\app\src\main\AndroidManifest.xml:38:9-40:46
+71            android:name="com.lyl.facerecognition.QrCodeActivity"
+71-->E:\AndroidStudioProjects\FaceRecognition\app\src\main\AndroidManifest.xml:38:19-49
+72            android:screenOrientation="portrait"
+72-->E:\AndroidStudioProjects\FaceRecognition\app\src\main\AndroidManifest.xml:39:13-49
+73            android:theme="@style/AppTheme" />
+73-->E:\AndroidStudioProjects\FaceRecognition\app\src\main\AndroidManifest.xml:40:13-44
+74        <activity
+74-->E:\AndroidStudioProjects\FaceRecognition\app\src\main\AndroidManifest.xml:41:9-48:20
+75            android:name="com.lyl.facerecognition.WelcomeActivity"
+75-->E:\AndroidStudioProjects\FaceRecognition\app\src\main\AndroidManifest.xml:41:19-50
+76            android:screenOrientation="portrait"
+76-->E:\AndroidStudioProjects\FaceRecognition\app\src\main\AndroidManifest.xml:42:13-49
+77            android:theme="@style/AppTheme" >
+77-->E:\AndroidStudioProjects\FaceRecognition\app\src\main\AndroidManifest.xml:43:13-44
+78            <intent-filter>
+78-->E:\AndroidStudioProjects\FaceRecognition\app\src\main\AndroidManifest.xml:44:13-47:29
+79                <action android:name="android.intent.action.MAIN" />
+79-->E:\AndroidStudioProjects\FaceRecognition\app\src\main\AndroidManifest.xml:45:17-69
+79-->E:\AndroidStudioProjects\FaceRecognition\app\src\main\AndroidManifest.xml:45:25-66
+80
+81                <category android:name="android.intent.category.LAUNCHER" />
+81-->E:\AndroidStudioProjects\FaceRecognition\app\src\main\AndroidManifest.xml:46:17-77
+81-->E:\AndroidStudioProjects\FaceRecognition\app\src\main\AndroidManifest.xml:46:27-74
+82            </intent-filter>
+83        </activity>
+84        <activity
+84-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\shertheus\.gradle\caches\transforms-2\files-2.1\47868ffb302ce5fdc7239e0dce851974\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:47:9-53:63
+85            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+85-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\shertheus\.gradle\caches\transforms-2\files-2.1\47868ffb302ce5fdc7239e0dce851974\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:48:13-74
+86            android:clearTaskOnLaunch="true"
+86-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\shertheus\.gradle\caches\transforms-2\files-2.1\47868ffb302ce5fdc7239e0dce851974\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:49:13-45
+87            android:screenOrientation="sensorLandscape"
+87-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\shertheus\.gradle\caches\transforms-2\files-2.1\47868ffb302ce5fdc7239e0dce851974\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:50:13-56
+88            android:stateNotNeeded="true"
+88-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\shertheus\.gradle\caches\transforms-2\files-2.1\47868ffb302ce5fdc7239e0dce851974\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:51:13-42
+89            android:theme="@style/zxing_CaptureTheme"
+89-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\shertheus\.gradle\caches\transforms-2\files-2.1\47868ffb302ce5fdc7239e0dce851974\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:52:13-54
+90            android:windowSoftInputMode="stateAlwaysHidden" />
+90-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\shertheus\.gradle\caches\transforms-2\files-2.1\47868ffb302ce5fdc7239e0dce851974\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:53:13-60
+91
+92        <provider
+92-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\shertheus\.gradle\caches\transforms-2\files-2.1\fa07a23f69071fa73b12f39bbc5eac81\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+93            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+93-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\shertheus\.gradle\caches\transforms-2\files-2.1\fa07a23f69071fa73b12f39bbc5eac81\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+94            android:authorities="com.lyl.facerecognition.lifecycle-process"
+94-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\shertheus\.gradle\caches\transforms-2\files-2.1\fa07a23f69071fa73b12f39bbc5eac81\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+95            android:exported="false"
+95-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\shertheus\.gradle\caches\transforms-2\files-2.1\fa07a23f69071fa73b12f39bbc5eac81\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+96            android:multiprocess="true" />
+96-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\shertheus\.gradle\caches\transforms-2\files-2.1\fa07a23f69071fa73b12f39bbc5eac81\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+97    </application>
+98
+99</manifest>
